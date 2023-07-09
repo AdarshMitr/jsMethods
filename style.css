@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 
 }
 
@@ -10,4 +11,18 @@
 text-align: center;
 border: 2px solid rgb(57, 50, 196);
 background-color: rgb(239, 168, 75);
+}
+
+#box{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    height: 100px;
+    border:2px solid black ;
+    margin: 50px;
+    padding: 20px;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   background-color: rgba(85, 146, 225, 0.344);
 }
