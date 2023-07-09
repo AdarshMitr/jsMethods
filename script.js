@@ -8,6 +8,12 @@ import users from "./users.js";
 //3. Sort users by age in descending order.
 
 
+
+
+// -----------------Solution 1-----------------------
+// using for loop:
+
+
 let Names=[];
 
 for(let i=0;i<users.length;i++){
